@@ -30,10 +30,10 @@ class DrumPad extends React.Component{
     render(){
       return (
       <button
-        className="pads" 
+        className="drum-pad" 
         id={this.props.id} 
         onClick={this.handleClick}>        
-            <h1>{this.props.id}</h1>
+            <p>{this.props.id}</p>
             <audio 
               className="clip" 
               id={this.props.id}

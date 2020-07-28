@@ -81,7 +81,6 @@ render() {
 
     return (
         <div class="container">
-            <p>Drum Machine</p>
 
             <div className="controls">
 
